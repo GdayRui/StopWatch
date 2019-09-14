@@ -26,8 +26,8 @@
     <div class="container">
         <p id="realTime">00:00.00</p>
         <div>
-            <button id="lap" class="btn btn-outline-dark">Lap</button>
-            <button id="start" class="btn btn-dark">Start</button>
+            <button id="lap" class="btn btn-outline-dark" disabled onclick="recordTime()">Lap</button>
+            <button id="start" class="btn btn-dark start" onclick="triggerStopwatch()">Start</button>
         </div>
 
         <table id="laps">

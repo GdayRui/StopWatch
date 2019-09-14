@@ -17,3 +17,10 @@ button{
     margin-left: 30px;
     width: 90px;
 }
+.start{
+    color: greenyellow;
+}
+.stop{
+    color: lightcoral;
+
+}
