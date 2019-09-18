@@ -70,17 +70,16 @@ function stopStopwatch(){
 // What to do after clicking 'Lap' button.
 var num = 1;
 function recordTime(){ 
-     var title = '<td>Lap'+ num +'</td>'; 
+     var title = '<td align="left">Lap '+ num +'</td>'; 
      var currentTime = $('#realTime').text();
-     var time = '<td>'+ currentTime +'</td>';
+     var time = '<td align="right">'+ currentTime +'</td>';
      var lapTime = '<tr>'+ title + time + '</tr>';   
      num += 1;
-     $('#laps').append(lapTime);
+     $('.table').prepend(lapTime);
      btnText = $('#lap').text();
      if (btnText == 'Reset') {
         resetStopwatch();
      }
-
 }
 
 // What to do after clicking 'Reset' button.
@@ -90,9 +89,10 @@ function resetStopwatch(){
      ms = 0;
      var realTime = '0'+m+':0'+s+'.0'+ms;
      $('#realTime').text(realTime);
-     $('#laps tr').remove();
+     $('.table tr').remove();
+     num = 1;
      $('#lap').text('lap');
-     $( "#lap" ).prop( "disabled", true );
+     $('#lap').prop('disabled', true );
 }
 
 
