@@ -30,7 +30,7 @@ button{
     color: blueviolet;
 }
 #laps{
-    overflow: scroll;
+    overflow: auto;
     width: 300px;
     height: 300px;
     margin: auto;

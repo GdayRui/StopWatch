@@ -91,7 +91,7 @@ function resetStopwatch(){
      $('#realTime').text(realTime);
      $('.table tr').remove();
      num = 1;
-     $('#lap').text('lap');
+     $('#lap').text('Lap');
      $('#lap').prop('disabled', true );
 }
 
