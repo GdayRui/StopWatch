@@ -23,7 +23,7 @@ When the 'Reset' button is clicked:
 1. The Stopwatch is reset to '00:00.00'.
 2. All records are cleared.
 
-Keyboard controll:
+Keyboard controle:
 Enter: start / stop
 Space: lap
 Esc: reset

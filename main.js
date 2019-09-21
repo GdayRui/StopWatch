@@ -94,7 +94,3 @@ function resetStopwatch(){
      $('#lap').text('Lap');
      $('#lap').prop('disabled', true );
 }
-
-
-
-
