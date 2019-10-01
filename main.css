@@ -35,3 +35,10 @@ button{
     height: 300px;
     margin: auto;
 }
+
+@media (max-width:768px){
+    .container{
+        border:none;
+        height: auto;
+    }
+}
