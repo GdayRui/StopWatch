@@ -1,7 +1,6 @@
 # StopWatch
 
-### Demo runs here:
-https://gdayrui.github.io/StopWatch/
+### Demo runs here: https://gdayrui.github.io/StopWatch/
 <br />
 
 At the beginning:
